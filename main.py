@@ -3,7 +3,7 @@
 # <xbar.version>v1.0</xbar.version>
 # <xbar.author>Victor Nazario</xbar.author>
 # <xbar.author.github>victor-nazario</xbar.author.github>
-# <xbar.image>https://icon-library.com/images/2018/300694_plane-plane-emoji-png-png-download.png</xbar.image>
+# <xbar.image>https://images.emojiterra.com/google/android-11/512px/2708.png</xbar.image>
 # <xbar.desc>Displays tracking information for airplanes in the airspace above you</xbar.desc>
 # <xbar.dependencies>python3,urllib,json</xbar.dependencies>
 
@@ -44,7 +44,7 @@ def print_app(result):
     print("Airspace Above")
     print("--Flights")
     print_flights(result)
-    print("--About|href='https://github.com/victor-nazario")
+    print("--About|href='https://github.com/victor-nazario/airspace")
 
 
 def print_flights(result):
