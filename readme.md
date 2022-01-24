@@ -1,4 +1,4 @@
-#Airspace
+# Airspace
 
 ###What?
 Airspace is an [xbar](https://github.com/matryer/xbar) plugin that shows you a detailed list of airplanes in the airspace above
