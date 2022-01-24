@@ -4,8 +4,10 @@
 # <xbar.author>Victor Nazario</xbar.author>
 # <xbar.author.github>victor-nazario</xbar.author.github>
 # <xbar.image>https://images.emojiterra.com/google/android-11/512px/2708.png</xbar.image>
-# <xbar.desc>Displays tracking information for airplanes in the airspace above you</xbar.desc>
+# <xbar.desc>Displays tracking information about airplanes in the airspace above you</xbar.desc>
+# <xbar.abouturl>https://github.com/victor-nazario/airspace</xbar.abouturl>
 # <xbar.dependencies>python3,urllib,json</xbar.dependencies>
+
 
 import math
 import urllib.request
@@ -32,7 +34,7 @@ def perform_request(url):
         print('socket timed out - URL %s', url)
 
 
-def print_app(result):
+def print_menu(result):
     """
         Prints the application menu according to XBar needs.
         :param result: the resulting map from a call to the airspace endpoint
@@ -81,7 +83,7 @@ def main():
           (lat - variance, lon - variance, lat + variance, lon + variance)
 
     air = perform_request(url)
-    print_app(air)
+    print_menu(air)
 
 
 if __name__ == '__main__':
