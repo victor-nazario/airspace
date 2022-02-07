@@ -2,7 +2,7 @@
 
 ### What?
 Airspace is an [xbar](https://github.com/matryer/xbar) plugin that shows you a detailed list of airplanes in the airspace above
-you. This list is details the airplane call-sign, its country of origin and even its groundspeed and altitude. 
+you. This list details the airplane call-sign, its country of origin and even its groundspeed and altitude. 
 Furthermore, this elements are clickeable, allowing the user to learn more about the aircraft. 
 
 ### How?
